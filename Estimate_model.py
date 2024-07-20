@@ -18,8 +18,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load the data
-data_test = pd.read_excel(r'C:\Users\sspatacean\Documents\Wells\Testing_data.xlsm')  
-data_train = pd.read_excel(r'C:\Users\sspatacean\Documents\Wells\Training_data.xlsm')
+data_test = pd.read_excel(r'..\Testing_data.xlsm')  
+data_train = pd.read_excel(r'..\Training_data.xlsm')
 
 # Function to check for missing values and duplicates in the data
 def check_missing_and_duplicates(data):
